@@ -1,0 +1,72 @@
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.deps.json
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.dll
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\ref\Mde.Project.Mobile.dll
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.pdb
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.AssemblyInfoInputs.cache
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.AssemblyInfo.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.csproj.CoreCompileInputs.cache
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.dll
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\ref\Mde.Project.Mobile.dll
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.pdb
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\CatAPI\CatApiPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\FirstColorModalPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\SecondColorModalPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\ThirdColorModalPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyActionPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyConfigurationPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyOverPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartySongSelectorPage.xaml.g.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.csproj.AssemblyReference.cache
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.deps.json
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.dll
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.pdb
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.csproj.AssemblyReference.cache
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\CatAPI\CatApiPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\FirstColorModalPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\SecondColorModalPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\ThirdColorModalPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyActionPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyConfigurationPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyOverPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartySongSelectorPage.xaml.g.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.AssemblyInfoInputs.cache
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.AssemblyInfo.cs
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.dll
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\refint\Mde.Project.Mobile.dll
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.pdb
+C:\Users\Daniel\OneDrive\Howest Prog\2022\MDE\exam\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\ref\Mde.Project.Mobile.dll
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.deps.json
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.dll
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\bin\Debug\netstandard2.0\Mde.Project.Mobile.pdb
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.csproj.AssemblyReference.cache
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\CatAPI\CatApiPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\FirstColorModalPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\SecondColorModalPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorModals\ThirdColorModalPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\ColorSelectorPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyActionPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyConfigurationPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartyOverPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Pages\PartyPages\PartySongSelectorPage.xaml.g.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.AssemblyInfoInputs.cache
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.AssemblyInfo.cs
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.csproj.CoreCompileInputs.cache
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.dll
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\refint\Mde.Project.Mobile.dll
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\Mde.Project.Mobile.pdb
+C:\Party Time\src\Mde.Project.Mobile\Mde.Project.Mobile\obj\Debug\netstandard2.0\ref\Mde.Project.Mobile.dll

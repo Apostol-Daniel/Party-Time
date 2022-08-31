@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MediaManager" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MediaManager">
+				<NamedResource name="MediaManager.xr.xml" uri="ms-resource://MediaManager/Files/MediaManager/MediaManager.xr.xml">
+					<Candidate type="Path">
+						<Value>MediaManager\MediaManager.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Platforms">
+					<ResourceMapSubtree name="Uap">
+						<ResourceMapSubtree name="Video">
+							<NamedResource name="VideoView.xaml" uri="ms-resource://MediaManager/Files/MediaManager/Platforms/Uap/Video/VideoView.xaml">
+								<Candidate type="Path">
+									<Value>MediaManager\Platforms\Uap\Video\VideoView.xaml</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="VideoView.xbf" uri="ms-resource://MediaManager/Files/MediaManager/Platforms/Uap/Video/VideoView.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

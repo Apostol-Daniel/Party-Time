@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mde.Project.Mobile.Pages.PartyActionPage"
+             Style="{StaticResource PageStyle}"
+             BackgroundColor="{Binding PageBackgroundColor, Mode=TwoWay}">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <StackLayout  Grid.Row="1" Spacing="5" VerticalOptions="Center">
+                    <Button      BackgroundColor="OrangeRed"
+                                Style="{x:StaticResource ButtonLayout}"
+                                Text="Stop the party!" 
+                                Command="{Binding CloseModal}"></Button>
+                </StackLayout>
+                
+                <StackLayout Grid.Row="2">
+                    <Label Text="Here will take place the magic(modal page?) Also add the abilty to pause the party which pauses the song and the color flashes"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

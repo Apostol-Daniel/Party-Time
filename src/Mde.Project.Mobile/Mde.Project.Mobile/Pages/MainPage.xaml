@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mde.Project.Mobile.Pages.MainPage"
+             Style="{StaticResource PageStyle}">
+
+    <ScrollView>
+        <Grid>
+            <StackLayout Spacing="5" VerticalOptions="Center">
+                <Button Style="{x:StaticResource ButtonLayout}" 
+                        Text="I want to party!"                          
+                        Command="{Binding OpenPartyConfigurationPage}"></Button>
+                
+                <Button Style="{x:StaticResource ButtonLayout}" 
+                        Text="I want cats!"                         
+                        Command="{Binding OpenCatApiPage}"></Button>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

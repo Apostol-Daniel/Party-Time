@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2d4a1f6f-8a4f-4bbe-83ea-4acfb85e97c1": {
+      "ProjectGuid": "2d4a1f6f-8a4f-4bbe-83ea-4acfb85e97c1",
+      "DisplayName": "Mde.Project.Mobile.Android",
+      "ColorIndex": 0
+    },
+    "e67068a7-067f-4015-94b2-b05c2cc1faa0": {
+      "ProjectGuid": "e67068a7-067f-4015-94b2-b05c2cc1faa0",
+      "DisplayName": "Mde.Project.Mobile",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "4cc51649-1951-4fff-81a9-edfd94e1193b": {
+      "ProjectGuid": "4cc51649-1951-4fff-81a9-edfd94e1193b",
+      "DisplayName": "Mde.Project.Mobile.UWP",
+      "ColorIndex": 2
+    },
+    "d66a30b6-1b54-421a-854a-bf3371cfa7b9": {
+      "ProjectGuid": "d66a30b6-1b54-421a-854a-bf3371cfa7b9",
+      "DisplayName": "Mde.Project.Mobile.iOS",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

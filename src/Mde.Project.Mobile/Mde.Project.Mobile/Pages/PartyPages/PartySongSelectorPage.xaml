@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             
+             x:Class="Mde.Project.Mobile.Pages.PartySongSelectorPage"
+             Style="{StaticResource PageStyle}">
+
+    <ContentPage.Content>
+        <!--<ScrollView>-->
+            
+        <Grid Padding="1" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" >
+                <Frame  Grid.Column="0"
+                    Margin="0"
+                    Padding="0"
+                     BackgroundColor="OrangeRed"
+                    CornerRadius="2"
+                    HasShadow="False">
+                    <Button Grid.Column="1"
+                            x:Name="ButtonClose"
+                            BackgroundColor="OrangeRed"
+                            Command="{Binding CloseModal}"
+                            Text="CLOSE"                          
+                             />
+                </Frame>
+                
+                <Frame Grid.Column="1"
+                    Margin="0"
+                    Padding="0"
+                    BackgroundColor="{StaticResource MainTheme}"
+                    CornerRadius="2"
+                    HasShadow="False">
+                    <Button
+                            x:Name="ButtonSelect"
+                            Grid.Column="0"
+                            BackgroundColor="{StaticResource MainTheme}"
+                            Command="{Binding SelectSong}"
+                            Text="{Binding SelectedSongTitleArtist}"
+                            TextColor="White" />
+
+                </Frame>
+
+                <Frame Grid.Column="2"
+                    Margin="0"
+                    Padding="0"
+                    BackgroundColor="{StaticResource MainTheme}"
+                    CornerRadius="2"
+                    HasShadow="False">
+                    <ImageButton WidthRequest="50"  Padding="2"
+                            x:Name="ButtonAddMoreSongs"
+                            Grid.Column="0"
+                            BackgroundColor="{StaticResource MainTheme}"
+                            Command="{Binding AddSong}"
+                            Source="addsong.png"
+                             />
+
+                </Frame>
+            </Grid>
+
+            <Grid Grid.Row="1" Padding="2">
+                <Frame
+                    
+                    BackgroundColor="{StaticResource MainTheme}"
+                    CornerRadius="2"
+                    HasShadow="False">
+                    <Grid ColumnSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            x:Name="LabelCurrentTrackIndex"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            FontAttributes="Bold"
+                            FontSize="Medium"
+                            LineBreakMode="TailTruncation"                          
+                            Text="CURRENT TRACK: -/-"
+                            TextColor="White"
+                            WidthRequest="300"
+                            HorizontalOptions="Start" />
+                        <Label
+                            x:Name="LabelCurrentTrackTitle"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            FontSize="Medium"
+                            LineBreakMode="TailTruncation"
+                            Text="TRACK TTILE"
+                            TextColor="White"
+                            HorizontalOptions="Start" />
+                        <Label
+                            x:Name="LabelCurrentPlayerStatus"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            FontSize="Medium"
+                            Text="PLAYER STATUS"
+                            TextColor="White"
+                            HorizontalOptions="End"/>
+                  
+                        <ImageButton                           
+                            Style="{StaticResource MediaPlayerButton}"
+                            x:Name="DynamicButtonPlayPause"
+                            Grid.Row="0" 
+                            Grid.Column="1"
+                            Clicked="DynamicButtonPlayPause_Clicked"                        
+                            Source="play.png">                                               
+                        </ImageButton>
+                        
+                        
+                    </Grid>
+                </Frame>
+            </Grid>
+
+            <CollectionView
+                ItemsSource="{Binding SongList, Mode=TwoWay}"
+                x:Name="CollectionView"
+                Grid.Row="2"
+                ItemsLayout="VerticalList"
+                VerticalScrollBarVisibility="Never">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            Padding="1,10,1,10"
+                            ColumnSpacing="0"
+                            RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30" />
+                                <RowDefinition Height="30" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60" />
+                                <ColumnDefinition Width="1" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="100" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label
+                                Grid.Row="0"
+                                Grid.RowSpan="2"
+                                Grid.Column="0"
+                                Margin="20,0,0,0"
+                                FontAttributes="Bold"
+                                FontSize="Medium"
+                                HeightRequest="60"
+                                HorizontalOptions="Start"
+                                Text="{Binding Number}"
+                                TextColor="White"
+                                VerticalOptions="CenterAndExpand"
+                                VerticalTextAlignment="Center" />
+
+                            <BoxView
+                                Grid.Row="0"
+                                Grid.RowSpan="2"
+                                Grid.Column="1"
+                                Margin="0,5,0,5"
+                                WidthRequest="1"
+                                Color="{StaticResource MainTheme}" />
+
+                            <Label
+                                Grid.Row="0"
+                                Grid.Column="2"
+                                Margin="20,0,0,0"
+                                FontSize="Medium"
+                                HorizontalOptions="StartAndExpand"
+                                LineBreakMode="TailTruncation"
+                                Text="{Binding Title}"
+                                TextColor="White"
+                                VerticalOptions="End" />
+                            <Label
+                                Grid.Row="1"
+                                Grid.Column="2"
+                                Margin="20,0,0,0"
+                                FontSize="Medium"
+                                HorizontalOptions="StartAndExpand"
+                                LineBreakMode="TailTruncation"
+                                Text="{Binding Artist}"
+                                TextColor="White"
+                                VerticalOptions="Start" />
+
+                            <ImageButton
+                                Grid.Row="0"
+                                Grid.Column="3"
+                                BackgroundColor="{StaticResource MainTheme}"
+                                Clicked="ButtonPlaySong_Clicked"
+                                Source="play.png"/>
+
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+                
+            
+            <Grid Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+                <Slider
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    x:Name="SliderSongPlayDisplay"
+                    HorizontalOptions="FillAndExpand"
+                    Minimum="0"
+                    MinimumTrackColor="{StaticResource MainTheme}"
+                    ThumbColor="{StaticResource MainTheme}"
+                    Value="0" />
+
+                <ImageButton
+                    Style="{StaticResource MediaPlayerButton}"
+                    x:Name="RewindButton"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Command="{Binding Rewind}"
+                    Source="rewind.png"
+                />
+
+                <Label
+                    x:Name="LabelMediaDetails"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="5,0,5,0"
+                    FontSize="Medium"
+                    HeightRequest="35"
+                    HorizontalOptions="FillAndExpand"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="TailTruncation"
+                    Text="- MEDIA DETAILS -"
+                    TextColor="{StaticResource MainTheme}"
+                    VerticalTextAlignment="Center" />
+
+                <ImageButton
+                    Style="{StaticResource MediaPlayerButton}"
+                    x:Name="ForwardButton"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Command="{Binding Forward}"
+                    Source="fastforward.png"
+                />
+
+                <ImageButton
+                    Style="{StaticResource MediaPlayerButton}"    
+                    x:Name="PreviusButton"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Command="{Binding Previous}"
+                    Source="backwards.png"
+                />
+                
+                <ImageButton
+                    Style="{StaticResource MediaPlayerButton}"
+                    x:Name="PlayPauseButton"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Clicked="PlayPauseButton_Clicked"
+                    Source="playpause.png"
+                />
+                
+                <ImageButton
+                    Style="{StaticResource MediaPlayerButton}"
+                    x:Name="NextButton"
+                    Grid.Row="2"
+                    Grid.Column="2"               
+                    Command="{Binding Next}"
+                    Source="forwards.png"
+                />
+            </Grid>
+        </Grid>
+            
+        <!--</ScrollView>-->
+        
+
+    </ContentPage.Content>
+</ContentPage>

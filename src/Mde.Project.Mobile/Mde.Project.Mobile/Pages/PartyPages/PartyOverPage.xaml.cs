@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Mde.Project.Mobile.Pages
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class PartyOverPage : ContentPage
+    {
+        public PartyOverPage()
+        {
+            NavigationPage.SetHasBackButton(this, false);
+            InitializeComponent();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }      
+    }
+}

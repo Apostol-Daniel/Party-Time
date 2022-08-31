@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mde.Project.Mobile.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="PageBackground">#0A0A0A</Color>
+            <Color x:Key="FrameBorder">#778899</Color>
+            <Color x:Key="MainTheme">#F7DB69</Color>
+
+            <Style ApplyToDerivedTypes="true" TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource PageBackground}"></Setter>
+                <Setter Property="BarTextColor" Value="{StaticResource MainTheme}"></Setter>
+                
+            </Style>
+
+            <Style x:Key="PageStyle" TargetType="Page">
+                <Setter Property="BackgroundColor" Value="{StaticResource PageBackground}"></Setter>
+            </Style>
+
+            <Style x:Key="TabbedPageStyle" TargetType="TabbedPage" BasedOn="{StaticResource PageStyle}"></Style>
+            <Style x:Key="ContentPageStyle" TargetType="ContentPage" BasedOn="{StaticResource PageStyle}"></Style>
+
+
+            <Style x:Key="ButtonLayout" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource MainTheme}"></Setter>
+                <Setter Property="CornerRadius" Value="8"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Padding" Value="80,15"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="Medium"></Setter>
+            </Style>
+
+            <Style x:Key="MediaPlayerButton" TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="{StaticResource MainTheme}"></Setter>
+                <Setter Property="CornerRadius" Value="8"></Setter>
+                <Setter Property="HeightRequest" Value="50"></Setter>
+                <Setter Property="WidthRequest" Value="50"></Setter>
+            </Style>
+
+            <Style x:Key="ColorPickerHolderFrameLayout" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="8"></Setter>
+                <Setter Property="HeightRequest" Value="200"></Setter>
+                <Setter Property="WidthRequest" Value="350"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+            </Style>
+
+            <Style x:Key="ColorPickerDisplayFrameLayout" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="White"></Setter>
+                <Setter Property="CornerRadius" Value="8"></Setter>
+                <Setter Property="HeightRequest" Value="70"></Setter>
+                <Setter Property="WidthRequest" Value="350"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+            </Style>
+
+
+            <Style x:Key="FrameLayout" TargetType="Frame">
+                <Setter Property="WidthRequest" Value="100"></Setter>
+                <Setter Property="HeightRequest" Value="100"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+                <Setter Property="Padding" Value="5"></Setter>
+                <Setter Property="BorderColor" Value="{StaticResource FrameBorder}"></Setter>
+                <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+            </Style>
+
+            <Style x:Key="ColorPickerDiv" TargetType="StackLayout">
+                <Setter Property="Orientation" Value="Vertical"></Setter>
+                <Setter Property="Spacing" Value="15"></Setter>
+                <Setter Property="VerticalOptions" Value="Center"></Setter>
+            </Style>
+
+            <Style x:Key="SwitchStyle" TargetType="Switch">
+                <Setter Property="VerticalOptions" Value="Start"></Setter>
+                <Setter Property="ThumbColor" Value="WhiteSmoke"></Setter>
+                <Setter Property="OnColor" Value="LightGreen"></Setter>
+                <Setter Property="HorizontalOptions" Value="End"></Setter>
+            </Style>
+
+            <Style x:Key="InputFormLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource MainTheme}"></Setter>
+            </Style>
+
+            <Style x:Key="InstructionFrame" TargetType="Frame" BasedOn="{StaticResource ColorPickerDisplayFrameLayout}">
+                <Setter Property="HeightRequest" Value="30"></Setter>
+                <Setter Property="WidthRequest" Value="450"></Setter>
+                <Setter Property="VerticalOptions" Value="Center"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource MainTheme}"></Setter>
+            </Style>
+
+            <Style x:Key="InstructionLabel" TargetType="Label">
+                <Setter Property="WidthRequest" Value="450"></Setter>
+                <Setter Property="FontSize" Value="Medium"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="VerticalOptions" Value="Center"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+            </Style>
+
+            <Style x:Key="InputFormPicker" TargetType="Picker">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource MainTheme}"></Setter>
+            </Style>
+
+            <Style x:Key="InputFormEntry" TargetType="Entry">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource MainTheme}"></Setter>
+            </Style>
+
+
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

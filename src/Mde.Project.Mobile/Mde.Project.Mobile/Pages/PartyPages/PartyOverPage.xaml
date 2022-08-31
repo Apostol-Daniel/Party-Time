@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mde.Project.Mobile.Pages.PartyOverPage"
+             Style="{StaticResource PageStyle}">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <StackLayout  Grid.Row="1" Spacing="5" VerticalOptions="Center">
+                    <Button     Style="{x:StaticResource ButtonLayout}"
+                                Text="I want to party again!" 
+                                Command="{Binding PartyReset}"></Button>
+                </StackLayout>
+
+                <StackLayout  Grid.Row="2" Spacing="5" VerticalOptions="Center">
+                    <Button     Style="{x:StaticResource ButtonLayout}"
+                                Text="I want cats!" 
+                                Command="{Binding OpenCatApiPage}"></Button>
+                </StackLayout>
+
+                <StackLayout  Grid.Row="3" Spacing="5" VerticalOptions="Center">
+                    <Button     Style="{x:StaticResource ButtonLayout}"
+                                Text="Start screen!" 
+                                Command="{Binding OpenHomeScreen}"></Button>
+                </StackLayout>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

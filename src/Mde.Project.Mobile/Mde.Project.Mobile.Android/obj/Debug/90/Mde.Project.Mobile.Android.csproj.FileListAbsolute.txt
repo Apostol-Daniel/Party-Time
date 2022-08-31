@@ -1,0 +1,3 @@
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile.Android\obj\Debug\90\build.props
+C:\st-2122-1-S5A-pe-Apostol-Daniel\src\Mde.Project.Mobile\Mde.Project.Mobile.Android\obj\Debug\90\adb.props
